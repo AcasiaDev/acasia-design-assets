@@ -1,0 +1,133 @@
+/* Acasia Design System 4.0 — semantic tokens for anything built in code.
+   Names match the live Figma variables (verified 2026-07-30) so a coded asset and a Figma
+   frame speak the same language. Never type a hex in an asset. Always reference a token. */
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  /* --- primary palette --- */
+  --acasia-green-500:        #0F6E42;  /* Canopy Green · primary · CTA */
+  --acasia-forest-shadow:    #23462F;  /* headers · nav · pressed */
+  --acasia-acacia-leaf:      #7DAF61;  /* success · accent */
+  --acasia-warm-oat:         #C7A985;  /* icons · illustration */
+  --acasia-desert-sand:      #E7DED1;  /* cards · surfaces */
+  --acasia-morning-mist:     #FAF8F4;  /* background */
+  --acasia-charcoal:         #2D2D2D;  /* body text */
+
+  /* --- accent palette · informational only, never a CTA --- */
+  --acasia-morning-sun:      #EBCB73;
+  --acasia-sky-mist:         #C7DCEB;
+  --acasia-terracotta:       #B46A4D;
+  --acasia-sage:             #A8B89C;
+  --acasia-stone:            #C7C0B5;
+  --acasia-copper:           #B56A3A;
+  --acasia-electric-mint:    #41D982;
+
+  /* --- neutrals · every screen leans here before reaching for colour --- */
+  --acasia-moss:             #5E7651;
+  --acasia-clay-soil:        #B98A67;
+  --acasia-umber:            #9C7C5F;
+  --acasia-ash-stone:        #7B7D79;
+  --acasia-mist:             #F6F4EF;
+  --acasia-midnight:         #1A1C1A;
+  --acasia-mint:             #CFE0D5;
+
+  /* --- primitives seen in the live file --- */
+  --acasia-cream-100:        #FBF8F3;
+  --acasia-cream-300:        #E7DED1;
+  --acasia-olive-500:        #A8B89C;
+  --acasia-base-white:       #FFFFFF;
+  --acasia-base-black:       #000000;
+
+  /* --- semantic · light mode (default) --- */
+  --acasia-color-bg-canvas:                    var(--acasia-cream-100);
+  --acasia-color-bg-surface:                   var(--acasia-base-white);
+  --acasia-color-bg-brand:                     var(--acasia-green-500);
+  --acasia-color-text-primary:                 #17231C;
+  --acasia-color-text-secondary:               var(--acasia-moss);
+  --acasia-color-text-link:                    var(--acasia-green-500);
+  --acasia-color-border-default:               #D2D3CD;
+  --acasia-color-border-focus:                 var(--acasia-green-500);
+
+  /* accent, semantic. Note sage resolves to #A6B4A0 here, not the #A8B89C printed in the
+     palette table of design-system-4.0.md §3. The token is authoritative. */
+  --acasia-color-accent-sage:                  #A6B4A0;
+  --acasia-color-accent-ochre:                 var(--acasia-morning-sun);
+  --acasia-color-accent-terracotta:            var(--acasia-terracotta);
+
+  /* action · PRIMARY ACTION CONTRACT: this fill appears once per page view */
+  --acasia-color-action-primary-bg-default:    var(--acasia-green-500);
+  --acasia-color-action-primary-bg-hover:      #0C5A36;
+  --acasia-color-action-primary-bg-pressed:    var(--acasia-forest-shadow);
+  --acasia-color-action-primary-bg-disabled:   var(--acasia-mint);
+  --acasia-color-action-primary-fg-default:    var(--acasia-morning-mist);
+
+  --acasia-color-action-secondary-bg-default:  var(--acasia-base-white);
+  --acasia-color-action-secondary-fg-default:  #17231C;
+  --acasia-color-action-secondary-border-default: #D2D3CD;
+  --acasia-color-action-quiet-bg-hover:        #E6E4DC;
+  --acasia-color-action-danger-bg-default:     #B2553A;
+
+  /* --- typography --- */
+  --acasia-font-sans:      Geist, sans-serif;
+  --acasia-font-mono:      'Geist Mono', monospace;
+  --acasia-font-editorial: 'Instrument Serif', serif;
+
+  /* --- 4 px rhythm --- */
+  --acasia-space-1:  4px;
+  --acasia-space-2:  8px;
+  --acasia-space-3:  12px;
+  --acasia-space-4:  16px;
+  --acasia-space-6:  24px;
+  --acasia-space-8:  32px;
+  --acasia-space-12: 48px;
+  --acasia-space-16: 64px;
+
+  /* --- radius, paired with elevation 0 · 1 · 2 · 3 --- */
+  --acasia-radius-4:  4px;    /* data cell */
+  --acasia-radius-8:  8px;    /* control */
+  --acasia-radius-16: 16px;   /* product card */
+  --acasia-radius-32: 32px;   /* editorial container */
+  --acasia-radius-pill: 999px;
+
+  /* --- action geometry, from the live file --- */
+  --acasia-action-lg-height:    48px;
+  --acasia-action-lg-padding-x: 20px;
+  --acasia-action-gap:          8px;
+
+  /* --- motion · animate state change, never decoration --- */
+  --acasia-motion-micro:      120ms;
+  --acasia-motion-standard:   180ms;
+  --acasia-motion-enter:      240ms;
+  --acasia-motion-complex:    320ms;
+  --acasia-motion-ambient:    480ms;
+  --acasia-ease-standard:     cubic-bezier(.2, 0, 0, 1);
+  --acasia-ease-emphasized:   cubic-bezier(.2, .8, .2, 1);
+}
+
+/* --- dark mode · green stays reserved for the one task-advancing action --- */
+[data-theme="dark"] {
+  --acasia-color-bg-canvas:                    #171A18;
+  --acasia-color-bg-surface:                   #292E2A;
+  --acasia-color-text-primary:                 var(--acasia-cream-100);
+  --acasia-color-action-secondary-bg-default:  #292E2A;
+  --acasia-color-action-quiet-bg-hover:        #292E2A;
+  --acasia-color-action-danger-bg-default:     #E88C7D;
+  --acasia-color-action-primary-bg-disabled:   #353B36;
+}
+
+/* --- the 18 public text styles, product surfaces are Geist only --- */
+.acasia-heading-xl  { font: 600 40px/48px var(--acasia-font-sans); letter-spacing: -1.0px; }
+.acasia-heading-l   { font: 600 32px/40px var(--acasia-font-sans); letter-spacing: -0.5px; }
+.acasia-heading-m   { font: 600 24px/32px var(--acasia-font-sans); letter-spacing: -0.25px; }
+.acasia-heading-s   { font: 600 20px/28px var(--acasia-font-sans); letter-spacing: -0.15px; }
+.acasia-body-l      { font: 400 18px/28px var(--acasia-font-sans); }
+.acasia-body-m      { font: 400 16px/24px var(--acasia-font-sans); }
+.acasia-label-l     { font: 600 14px/20px var(--acasia-font-sans); }
+.acasia-label-s-caps{ font: 500 10px/12px var(--acasia-font-sans); letter-spacing: 1.5px; text-transform: uppercase; }
+.acasia-mono        { font-family: var(--acasia-font-mono); }
+
+/* Instrument Serif: brand campaigns and editorial heroes only.
+   NEVER in dashboards, forms, tables, alerts, monitoring, or cost-critical flows. */
+.acasia-editorial        { font: 400 64px/68px var(--acasia-font-editorial); letter-spacing: -1.0px; }
+.acasia-editorial-italic { font: italic 400 44px/52px var(--acasia-font-editorial); }
