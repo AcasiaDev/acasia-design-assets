@@ -1,59 +1,39 @@
-# Acasia Design System 4.0 — public assets
+# Acasia design assets
 
-CDN-servable brand assets for Acasia Design System 4.0. Referenced by absolute URL from the
-`acasia-design` skill so any coded project can use the real masters without uploading files.
-
-**Source of truth is the Figma file** `Z9xIuFkgAB2N5W4hKUzxAz` (Acasia Design System 4.0). This
-repo is a mirror for code consumption. If a file here disagrees with Figma, Figma wins — and the
-mirror needs updating.
-
-## Use
-
-Serve through jsDelivr, which is a real CDN and free for public repos:
+CDN-servable brand assets for the `acasia-design` skill, so any coded project can use the real
+assets without uploading files. Serve through jsDelivr:
 
 ```
 https://cdn.jsdelivr.net/gh/AcasiaDev/acasia-design-assets@main/<path>
 ```
 
-Example:
+jsDelivr caches `@main`. To force a refresh after an update, pin a commit SHA instead of `@main`.
 
-```html
-<img src="https://cdn.jsdelivr.net/gh/AcasiaDev/acasia-design-assets@main/logo/acasia-logo-green.png"
-     alt="Acasia" width="250" height="100">
-```
+## Current: Design System 7.2, `v7.2/`
 
-```css
-@import url('https://cdn.jsdelivr.net/gh/AcasiaDev/acasia-design-assets@main/tokens-4.0.css');
-```
-
-jsDelivr caches `@main` aggressively. To force a refresh after updating a file, pin a commit SHA
-or tag instead of `@main`.
-
-## Contents
+Source of truth is the Figma file `M5nTaYA0GvMptOZoH3NnTT` (Acasia Design System 7.2), asset pack
+checked 2026-11-04. If a file here disagrees with Figma, Figma wins and this mirror needs updating.
 
 | Path | What |
 |---|---|
-| `tokens-4.0.css` | Semantic token sheet. Token names match the live Figma variables. |
-| `logo/` | Acasia lockup + mark (PNG, forest and white). Grove and Fabric lockups (SVG, true vector). |
-| `icons/svg/` | 23 product icons, SVG — use these in code |
-| `icons/` | The same 23 as PNG |
-| `exports/` | `paper-grain.png` brand texture, 4 mineral slot shapes |
-| `fonts/` | Geist, Geist Mono, Instrument Serif TTFs — for self-hosting or server-side rendering. Web projects should load these from Google Fonts instead. |
+| `v7.2/acasia-7.2.css` | Tokens (Dark default via `class="dark"`, Light), fonts, motion, text style classes |
+| `v7.2/logo/` | `acasia-logo-white.png` (Dark grounds, photos) and `acasia-logo-green.png` (Light grounds), 960 × 320 |
+| `v7.2/icons/line/` | 35 line icons, SVG in `currentColor` |
+| `v7.2/icons/utility/` | 28 utility icons for controls, SVG in `currentColor` |
+| `v7.2/avatars/` | 8 placeholders and system avatars, 492 × 492 |
+| `v7.2/photos/` | 6 approved facility photos (graded) and 4 AI concepts (always labeled AI concept) |
 
-## Not here, deliberately
+```css
+@import url('https://cdn.jsdelivr.net/gh/AcasiaDev/acasia-design-assets@main/v7.2/acasia-7.2.css');
+```
 
-**Team avatars.** The 27 team portraits are photographs of named employees and are kept out of
-this public repo. They live in the Figma file (`Avatar / Team Portrait / Green 500`) and in the
-internal skill bundle. Upload them into a specific project when a build actually needs them.
+### Not here, on purpose
 
-## Rules
+Team portraits are photos of named employees and stay out of this public repo. Lockups,
+illustrations, campus views and campaign art are not hosted either. Report a missing asset; never
+redraw or substitute one.
 
-These are protected masters. Never redraw, trace, recolour, flatten, regenerate, or typeset them.
+## Retired: Design System 4.0, root folders
 
-- The **Acasia lockup is a raster only** — a 1000 × 400 PNG. There is no vector Acasia wordmark
-  anywhere; that is a known open gap. Scale it down, never up.
-- The **Grove and Fabric lockups are true vector** SVG and scale freely.
-- Product icons have two expressions: **Brand** mirrors the reference artwork, **Interface** keeps
-  operational screens quiet. **Product UI uses Interface.** Icon tile ground is `#F6F4EF`.
-- If an asset you need is not here, report the gap. Do not substitute a lookalike from an icon
-  library and do not draw a replacement.
+`tokens-4.0.css`, `logo/`, `icons/`, `exports/` and `fonts/` are the 4.0 mirror (Figma
+`Z9xIuFkgAB2N5W4hKUzxAz`). They stay so older projects keep loading. Do not use them for new work.

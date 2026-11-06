@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Lucide / building-2">
+<path id="Glyph" d="M26.6667 32H37.3333" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_2" d="M26.6667 21.3333H37.3333" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_3" d="M37.3333 56V48C37.3333 46.5855 36.7714 45.229 35.7712 44.2288C34.771 43.2286 33.4145 42.6667 32 42.6667C30.5855 42.6667 29.229 43.2286 28.2288 44.2288C27.2286 45.229 26.6667 46.5855 26.6667 48V56" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Graphic" d="M16 26.6667H10.6667C9.25218 26.6667 7.89562 27.2286 6.89543 28.2288C5.89524 29.229 5.33333 30.5855 5.33333 32V50.6667C5.33333 52.0812 5.89524 53.4377 6.89543 54.4379C7.89562 55.4381 9.25218 56 10.6667 56H53.3333C54.7478 56 56.1044 55.4381 57.1046 54.4379C58.1048 53.4377 58.6667 52.0812 58.6667 50.6667V24C58.6667 22.5855 58.1048 21.229 57.1046 20.2288C56.1044 19.2286 54.7478 18.6667 53.3333 18.6667H48" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Graphic_2" d="M16 56V13.3333C16 11.9188 16.5619 10.5623 17.5621 9.5621C18.5623 8.5619 19.9188 8 21.3333 8H42.6667C44.0812 8 45.4377 8.5619 46.4379 9.5621C47.4381 10.5623 48 11.9188 48 13.3333V56" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

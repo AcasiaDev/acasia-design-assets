@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Lucide / cpu">
+<path id="Glyph" d="M32 53.3333V58.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_2" d="M32 5.33333V10.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_3" d="M45.3333 53.3333V58.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_4" d="M45.3333 5.33333V10.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_5" d="M5.33333 32H10.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_6" d="M5.33333 45.3333H10.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_7" d="M5.33333 18.6667H10.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_8" d="M53.3333 32H58.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_9" d="M53.3333 45.3333H58.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_10" d="M53.3333 18.6667H58.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_11" d="M18.6667 53.3333V58.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_12" d="M18.6667 5.33333V10.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Graphic" d="M48 10.6667H16C13.0545 10.6667 10.6667 13.0545 10.6667 16V48C10.6667 50.9455 13.0545 53.3333 16 53.3333H48C50.9455 53.3333 53.3333 50.9455 53.3333 48V16C53.3333 13.0545 50.9455 10.6667 48 10.6667Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_13" d="M40 21.3333H24C22.5272 21.3333 21.3333 22.5272 21.3333 24V40C21.3333 41.4728 22.5272 42.6667 24 42.6667H40C41.4728 42.6667 42.6667 41.4728 42.6667 40V24C42.6667 22.5272 41.4728 21.3333 40 21.3333Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

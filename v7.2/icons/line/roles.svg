@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Lucide / id-card">
+<path id="Glyph" d="M34.6667 50.6667C34.6667 47.8377 33.5429 45.1246 31.5425 43.1242C29.5421 41.1238 26.829 40 24 40C21.171 40 18.4579 41.1238 16.4575 43.1242C14.4571 45.1246 13.3333 47.8377 13.3333 50.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_2" d="M42.6667 26.6667H48" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_3" d="M42.6667 37.3333H48" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_4" d="M24 40C28.4183 40 32 36.4183 32 32C32 27.5817 28.4183 24 24 24C19.5817 24 16 27.5817 16 32C16 36.4183 19.5817 40 24 40Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Graphic" d="M53.3333 13.3333H10.6667C7.72115 13.3333 5.33333 15.7211 5.33333 18.6667V45.3333C5.33333 48.2789 7.72115 50.6667 10.6667 50.6667H53.3333C56.2789 50.6667 58.6667 48.2789 58.6667 45.3333V18.6667C58.6667 15.7211 56.2789 13.3333 53.3333 13.3333Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

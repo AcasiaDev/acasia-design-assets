@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Lucide / boxes">
+<path id="Glyph" d="M7.92 34.4533C7.13269 34.9263 6.48088 35.5947 6.0277 36.3936C5.57452 37.1925 5.33535 38.0949 5.33333 39.0133V47.6533C5.33535 48.5718 5.57452 49.4742 6.0277 50.2731C6.48088 51.072 7.13269 51.7403 7.92 52.2133L15.92 57.0133C16.7495 57.5117 17.699 57.775 18.6667 57.775C19.6344 57.775 20.5838 57.5117 21.4133 57.0133L32 50.6667V36L18.6667 28L7.92 34.4533Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_2" d="M18.6667 44L6.02669 36.4" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_3" d="M18.6667 44L32 36" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_4" d="M18.6667 44V57.7867" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_5" d="M32 36V50.6667L42.5867 57.0133C43.4162 57.5117 44.3656 57.775 45.3333 57.775C46.301 57.775 47.2505 57.5117 48.08 57.0133L56.08 52.2133C56.8673 51.7403 57.5191 51.072 57.9723 50.2731C58.4255 49.4742 58.6647 48.5718 58.6667 47.6533V39.0133C58.6647 38.0949 58.4255 37.1925 57.9723 36.3936C57.5191 35.5947 56.8673 34.9263 56.08 34.4533L45.3333 28L32 36Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_6" d="M45.3333 44L32 36" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_7" d="M45.3333 44L57.9733 36.4" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_8" d="M45.3333 44V57.7867" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_9" d="M21.2533 11.7867C20.466 12.2597 19.8142 12.928 19.361 13.7269C18.9079 14.5258 18.6687 15.4282 18.6667 16.3467V28L32 36L45.3333 28V16.3467C45.3313 15.4282 45.0921 14.5258 44.639 13.7269C44.1858 12.928 43.534 12.2597 42.7467 11.7867L34.7467 6.98667C33.9172 6.4883 32.9677 6.22502 32 6.22502C31.0323 6.22502 30.0828 6.4883 29.2533 6.98667L21.2533 11.7867Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_10" d="M32 21.3333L19.36 13.7333" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_11" d="M32 21.3333L44.64 13.7333" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_12" d="M32 36V21.3333" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

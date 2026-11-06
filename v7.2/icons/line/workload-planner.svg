@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Lucide / workflow">
+<path id="Glyph" d="M24 8H13.3333C10.3878 8 8 10.3878 8 13.3333V24C8 26.9455 10.3878 29.3333 13.3333 29.3333H24C26.9455 29.3333 29.3333 26.9455 29.3333 24V13.3333C29.3333 10.3878 26.9455 8 24 8Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_2" d="M18.6667 29.3333V40C18.6667 41.4145 19.2286 42.771 20.2288 43.7712C21.229 44.7714 22.5855 45.3333 24 45.3333H34.6667" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Glyph_3" d="M50.6667 34.6667H40C37.0545 34.6667 34.6667 37.0545 34.6667 40V50.6667C34.6667 53.6122 37.0545 56 40 56H50.6667C53.6122 56 56 53.6122 56 50.6667V40C56 37.0545 53.6122 34.6667 50.6667 34.6667Z" stroke="currentColor" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

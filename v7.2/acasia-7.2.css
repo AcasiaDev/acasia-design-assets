@@ -1,0 +1,336 @@
+/* Acasia Design System 7.2, tokens and text styles for code.
+   Source: Figma M5nTaYA0GvMptOZoH3NnTT (Acasia Design System 7.2), values read 2026-11-04.
+   Dark is the default mode. Put class="dark" on <html>. Light is the same page without it. */
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Figtree:wght@500&display=swap');
+
+:root {
+  /* ---- Same in both modes ---- */
+  --acasia-color-signal-default: #188653;
+  --acasia-color-bg-brand: #188653;
+  --acasia-color-action-primary-bg-default: #188653;
+  --acasia-color-action-primary-bg-hover: #0F6E42;
+  --acasia-color-action-primary-bg-pressed: #0C5A36;
+  --acasia-color-action-primary-fg: #FFFFFF;
+  --acasia-color-action-quiet-bg-default: transparent;
+  --acasia-color-data-positive: #188653;
+  --acasia-color-data-sequential-1: #0B5A36;
+  --acasia-color-data-sequential-2: #25774E;
+  --acasia-color-data-sequential-3: #4D9C72;
+  --acasia-color-data-sequential-4: #72B295;
+  --acasia-color-data-sequential-5: #96C0AD;
+  --acasia-color-data-depth-1: #4A8F6E;
+  --acasia-color-data-depth-2: #87B7A1;
+  --acasia-color-progress-active-bg: #188653;
+  --acasia-color-accent-sand: #E7DED1;
+  --acasia-color-accent-sage: #A6B4A0;
+  --acasia-color-avatar-field: #FBF8F3;
+  --acasia-color-avatar-system-bg: #B46A4D;
+  --acasia-color-overlay-scrim: rgba(13, 15, 13, 0.48);
+
+  /* ---- Light mode ---- */
+  --acasia-color-bg-canvas: #FFFFFF;
+  --acasia-color-bg-subtle: #F4F6F5;
+  --acasia-color-bg-surface: #FFFFFF;
+  --acasia-color-bg-elevated: #FFFFFF;
+  --acasia-color-bg-band: #121212;
+  --acasia-color-bg-band-raised: #222222;
+  --acasia-color-bg-inverse: #121212;
+  --acasia-color-bg-inverse-raised: #222222;
+  --acasia-color-bg-chip: #FFFFFF;
+  --acasia-color-bg-selected: #E9F2EB;
+  --acasia-color-bg-hover: #E4E4E4;
+  --acasia-color-bg-pressed: #D2D3CD;
+  --acasia-color-bg-selected-strong: #17231C;
+  --acasia-color-bg-track: rgba(23, 35, 28, 0.08);
+  --acasia-color-bg-brand-soft: #E9F2EB;
+  --acasia-color-text-primary: #17231C;
+  --acasia-color-text-secondary: #2D2D2D;
+  --acasia-color-text-tertiary: #58645D;
+  --acasia-color-text-disabled: #A3A29B;
+  --acasia-color-text-brand: #188653;
+  --acasia-color-text-brand-small: #137046;
+  --acasia-color-text-danger: #913E2B;
+  --acasia-color-text-link: #17231C;
+  --acasia-color-text-on-selected-strong: #FFFFFF;
+  --acasia-color-border-subtle: #E4E4E4;
+  --acasia-color-border-default: #E4E4E4;
+  --acasia-color-border-strong: #D2D3CD;
+  --acasia-color-border-control: #7B7D79;
+  --acasia-color-border-focus: #17231C;
+  --acasia-color-action-primary-bg-disabled: #E4E4E4;
+  --acasia-color-action-primary-fg-disabled: #A3A29B;
+  --acasia-color-action-secondary-bg-default: #FFFFFF;
+  --acasia-color-action-secondary-bg-hover: #F4F6F5;
+  --acasia-color-action-secondary-bg-pressed: #E4E4E4;
+  --acasia-color-action-secondary-border: #D2D3CD;
+  --acasia-color-action-secondary-fg: #17231C;
+  --acasia-color-action-quiet-bg-hover: rgba(23, 35, 28, 0.06);
+  --acasia-color-action-quiet-bg-pressed: rgba(23, 35, 28, 0.14);
+  --acasia-color-action-quiet-fg: #17231C;
+  --acasia-color-action-danger-bg-default: #B2553A;
+  --acasia-color-action-danger-bg-hover: #963622;
+  --acasia-color-action-danger-bg-pressed: #742517;
+  --acasia-color-status-success-bg: #CFE0D5;
+  --acasia-color-status-success-fg: #23462F;
+  --acasia-color-status-warning-bg: #E7DED1;
+  --acasia-color-status-warning-fg: #17231C;
+  --acasia-color-status-danger-bg: #F3DDD5;
+  --acasia-color-status-danger-fg: #17231C;
+  --acasia-color-status-info-bg: #DCE8F1;
+  --acasia-color-status-info-fg: #17231C;
+  --acasia-color-data-negative: #B2553A;
+  --acasia-color-data-neutral: #7B7D79;
+  --acasia-color-progress-rail-track: #E4E4E4;
+  --acasia-color-progress-rail-fill: #0C5A36;
+  --acasia-color-progress-inactive-bg: #FFFFFF;
+  --acasia-color-progress-inactive-border: #E4E4E4;
+  --acasia-color-accent-ochre: #EBCB73;
+  --acasia-color-accent-terracotta: #B46A4D;
+  --acasia-color-accent-mauve: #C7C0B5;
+  --acasia-color-accent-olive: #A8B89C;
+  --acasia-color-brand-logo: #188653;
+
+  /* ---- Fonts ---- */
+  --acasia-font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --acasia-font-mono: 'Geist Mono', ui-monospace, monospace;
+  --acasia-font-stop: 'Figtree', sans-serif; /* the green full stop only */
+
+  /* ---- Spacing (4 px base). Nothing between these steps. ---- */
+  --acasia-space-0: 0px;
+  --acasia-space-half: 2px;
+  --acasia-space-1: 4px;
+  --acasia-space-2: 8px;
+  --acasia-space-3: 12px;
+  --acasia-space-4: 16px;
+  --acasia-space-5: 20px;
+  --acasia-space-6: 24px;
+  --acasia-space-8: 32px;
+  --acasia-space-10: 40px;
+  --acasia-space-12: 48px;
+  --acasia-space-16: 64px;
+  --acasia-space-20: 80px;
+  --acasia-space-24: 96px;
+
+  /* ---- Sizes ---- */
+  --acasia-control-sm: 32px;
+  --acasia-control-md: 40px;
+  --acasia-control-lg: 48px;
+  --acasia-control-xl: 56px;
+  --acasia-control-touch: 44px;
+  --acasia-container-sm: 640px;
+  --acasia-container-md: 960px;
+  --acasia-container-lg: 1200px;
+  --acasia-container-xl: 1440px;
+  --acasia-border-hairline: 1px;
+  --acasia-border-strong-width: 2px;
+
+  /* ---- Symmetric radii: cards, tables, dialogs, tags, meters ---- */
+  --acasia-radius-2xs: 2px;
+  --acasia-radius-xs: 4px;
+  --acasia-radius-sm: 8px;
+  --acasia-radius-md: 12px;
+  --acasia-radius-lg: 16px;
+  --acasia-radius-xl: 24px;
+  --acasia-radius-2xl: 32px;
+  --acasia-radius-bar: 3px;
+  --acasia-radius-full: 999px;
+
+  /* ---- Signature contour (top-left top-right bottom-right bottom-left).
+     Goes on everything interactive or selectable. ---- */
+  --acasia-contour-action-sm: 9px 12px 9px 12px;     /* up to 32 px tall */
+  --acasia-contour-action-md: 11px 14px 11px 14px;   /* up to 44 px tall */
+  --acasia-contour-action-lg: 13px 17px 13px 17px;
+  --acasia-contour-compact: 10px 13px 10px 13px;
+  --acasia-contour-card: 12px 16px 12px 16px;
+  --acasia-contour-block: 16px 24px 16px 24px;
+  --acasia-contour-feature: 24px 40px 24px 40px;
+  --acasia-contour-menu: 14px 18px 14px 18px;
+  --acasia-contour-panel: 20px 28px 20px 28px;
+  --acasia-contour-sheet: 17px 22px 0 0;
+  --acasia-contour-icon-sm: 11px 14px 12px 15px;
+  --acasia-contour-icon-md: 13px 17px 14px 18px;
+  --acasia-contour-nested: 7px 10px 7px 10px;        /* a control 4 px inside an action-md surface */
+
+  /* ---- Organic contour: photos, product stages, callout panels, highlighted rows.
+     The -b version is mirrored left to right, for the second of two side by side. ---- */
+  --acasia-contour-organic-sm: 12px 28px 16px 32px;
+  --acasia-contour-organic-md: 20px 48px 28px 56px;
+  --acasia-contour-organic-lg: 28px 72px 40px 88px;
+  --acasia-contour-organic-sm-b: 28px 12px 32px 16px;
+  --acasia-contour-organic-md-b: 48px 20px 56px 28px;
+  --acasia-contour-organic-lg-b: 72px 28px 88px 40px;
+
+  /* ---- Motion (product) ---- */
+  --acasia-duration-instant: 0ms;
+  --acasia-duration-fast: 120ms;
+  --acasia-duration-standard: 180ms;
+  --acasia-duration-deliberate: 240ms;
+  --acasia-duration-slow: 320ms;
+  --acasia-duration-ambient: 480ms;
+  --acasia-duration-reveal: 600ms;
+  --acasia-duration-stagger: 45ms;
+  --acasia-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --acasia-easing-enter: cubic-bezier(0, 0, 0.2, 1);
+  --acasia-easing-exit: cubic-bezier(0.4, 0, 1, 1);
+  --acasia-easing-emphasized: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --acasia-motion-press-scale: 0.98;
+  --acasia-motion-menu-scale-from: 0.96;
+  --acasia-motion-rise: 8px;
+  --acasia-motion-sink: 4px;
+
+  /* ---- Motion (product demos only; the same with reduced motion) ---- */
+  --acasia-duration-demo-control: 300ms;
+  --acasia-duration-demo-menu: 240ms;
+  --acasia-duration-demo-enter: 360ms;
+  --acasia-duration-demo-roll: 700ms;
+  --acasia-duration-demo-chart: 620ms;
+  --acasia-easing-demo-settle: cubic-bezier(0.22, 1, 0.36, 1);
+  --acasia-easing-demo-travel: cubic-bezier(0.45, 0, 0.1, 1);
+  --acasia-easing-demo-roll: cubic-bezier(0.3, 0.75, 0.1, 1);
+}
+
+/* ---- Dark mode, the default ---- */
+.dark {
+  --acasia-color-bg-canvas: #121212;
+  --acasia-color-bg-subtle: #222222;
+  --acasia-color-bg-surface: #1A1A1A;
+  --acasia-color-bg-elevated: #222222;
+  --acasia-color-bg-band: #1F1F1F;
+  --acasia-color-bg-band-raised: #292929;
+  --acasia-color-bg-inverse: #F5F5F4;
+  --acasia-color-bg-inverse-raised: #E6E4DC;
+  --acasia-color-bg-chip: #2E2E2E;
+  --acasia-color-bg-selected: #292929;
+  --acasia-color-bg-hover: #292929;
+  --acasia-color-bg-pressed: #333333;
+  --acasia-color-bg-selected-strong: #F5F5F4;
+  --acasia-color-bg-track: rgba(245, 245, 244, 0.10);
+  --acasia-color-bg-brand-soft: #2E2E2E;
+  --acasia-color-text-primary: #F5F5F4;
+  --acasia-color-text-secondary: #C4C4C2;
+  --acasia-color-text-tertiary: #A3A3A1;
+  --acasia-color-text-disabled: #8A8A88;
+  --acasia-color-text-brand: #6CCB9A;
+  --acasia-color-text-brand-small: #6CCB9A;
+  --acasia-color-text-danger: #F0B8A4;
+  --acasia-color-text-link: #F5F5F4;
+  --acasia-color-text-on-selected-strong: #121212;
+  --acasia-color-border-subtle: #2E2E2E;
+  --acasia-color-border-default: #2E2E2E;
+  --acasia-color-border-strong: #3F3F3F;
+  --acasia-color-border-control: #8F8F8D;
+  --acasia-color-border-focus: #F5F5F4;
+  --acasia-color-action-primary-bg-disabled: #2E2E2E;
+  --acasia-color-action-primary-fg-disabled: #8A8A88;
+  --acasia-color-action-secondary-bg-default: #222222;
+  --acasia-color-action-secondary-bg-hover: #2E2E2E;
+  --acasia-color-action-secondary-bg-pressed: #333333;
+  --acasia-color-action-secondary-border: #3F3F3F;
+  --acasia-color-action-secondary-fg: #F5F5F4;
+  --acasia-color-action-quiet-bg-hover: rgba(245, 245, 244, 0.10);
+  --acasia-color-action-quiet-bg-pressed: rgba(245, 245, 244, 0.16);
+  --acasia-color-action-quiet-fg: #F5F5F4;
+  --acasia-color-action-danger-bg-default: #963622;
+  --acasia-color-action-danger-bg-hover: #742517;
+  --acasia-color-action-danger-bg-pressed: #43201A;
+  --acasia-color-status-success-bg: #23462F;
+  --acasia-color-status-success-fg: #B9E4C9;
+  --acasia-color-status-warning-bg: #3A2E12;
+  --acasia-color-status-warning-fg: #F2DFA6;
+  --acasia-color-status-danger-bg: #43201A;
+  --acasia-color-status-danger-fg: #F0B8A4;
+  --acasia-color-status-info-bg: #263B43;
+  --acasia-color-status-info-fg: #F5F5F4;
+  --acasia-color-data-negative: #E88C7D;
+  --acasia-color-data-neutral: #AFB3AC;
+  --acasia-color-progress-rail-track: #333333;
+  --acasia-color-progress-rail-fill: #4D9C72;
+  --acasia-color-progress-inactive-bg: #222222;
+  --acasia-color-progress-inactive-border: #2E2E2E;
+  --acasia-color-accent-ochre: #C7A985;
+  --acasia-color-accent-terracotta: #D0B29E;
+  --acasia-color-accent-mauve: #D6D0C4;
+  --acasia-color-accent-olive: #C7C0B5;
+  --acasia-color-brand-logo: #FFFFFF;
+}
+
+/* ---- Reduced motion shows the final frame. Demo pacing does not change. ---- */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --acasia-duration-fast: 0ms;
+    --acasia-duration-standard: 0ms;
+    --acasia-duration-deliberate: 0ms;
+    --acasia-duration-slow: 0ms;
+    --acasia-duration-ambient: 0ms;
+    --acasia-duration-reveal: 0ms;
+    --acasia-duration-stagger: 0ms;
+    --acasia-motion-press-scale: 1;
+    --acasia-motion-menu-scale-from: 1;
+    --acasia-motion-rise: 0px;
+    --acasia-motion-sink: 0px;
+  }
+}
+
+/* ---- Base ---- */
+html { color-scheme: light; }
+html.dark { color-scheme: dark; }
+body {
+  background: var(--acasia-color-bg-canvas);
+  color: var(--acasia-color-text-primary);
+  font-family: var(--acasia-font-sans);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Text styles (V7.2). Geist unless the class sets Mono. ---- */
+.t-display-editorial-l { font-size: 56px; line-height: 60px; font-weight: 500; letter-spacing: -0.025em; }
+.t-display-editorial-m { font-size: 44px; line-height: 48px; font-weight: 500; letter-spacing: -0.02em; }
+.t-display-ui-l        { font-size: 56px; line-height: 64px; font-weight: 600; letter-spacing: -0.0175em; }
+.t-heading-xl { font-size: 40px; line-height: 48px; font-weight: 600; letter-spacing: -0.025em; }
+.t-heading-l  { font-size: 32px; line-height: 40px; font-weight: 600; letter-spacing: -0.015em; }
+.t-heading-m  { font-size: 24px; line-height: 32px; font-weight: 600; letter-spacing: -0.01em; }
+.t-heading-s  { font-size: 20px; line-height: 28px; font-weight: 600; letter-spacing: -0.0075em; }
+.t-body-xl       { font-size: 24px; line-height: 32px; font-weight: 400; }
+.t-body-l        { font-size: 18px; line-height: 28px; font-weight: 400; }
+.t-body-m        { font-size: 16px; line-height: 24px; font-weight: 400; }
+.t-body-m-medium { font-size: 16px; line-height: 24px; font-weight: 500; }
+.t-body-s        { font-size: 14px; line-height: 20px; font-weight: 400; }
+.t-label-l    { font-size: 14px; line-height: 20px; font-weight: 600; }
+.t-label-m    { font-size: 12px; line-height: 16px; font-weight: 500; }
+.t-label-m-sb { font-size: 12px; line-height: 16px; font-weight: 600; }
+.t-label-mono { font-family: var(--acasia-font-mono); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.05em; }
+.t-data-l { font-family: var(--acasia-font-mono); font-size: 16px; line-height: 24px; font-weight: 500; }
+.t-data-m { font-family: var(--acasia-font-mono); font-size: 14px; line-height: 20px; font-weight: 500; }
+.t-data-s { font-family: var(--acasia-font-mono); font-size: 12px; line-height: 16px; font-weight: 400; }
+
+/* Product: cloud.acasia.com and Acasia Ops */
+.t-product-section     { font-size: 16px; line-height: 22px; font-weight: 600; }
+.t-product-panel-title { font-size: 18px; line-height: 26px; font-weight: 600; }
+.t-product-card-title  { font-size: 22px; line-height: 28px; font-weight: 600; letter-spacing: -0.0225em; }
+.t-product-row         { font-size: 15px; line-height: 22px; font-weight: 400; }
+.t-product-row-medium  { font-size: 15px; line-height: 22px; font-weight: 500; }
+.t-product-meta        { font-size: 13px; line-height: 20px; font-weight: 400; }
+.t-product-meta-medium { font-size: 13px; line-height: 20px; font-weight: 500; }
+.t-product-control     { font-size: 13px; line-height: 18px; font-weight: 500; }
+.t-product-nav         { font-size: 14px; line-height: 20px; font-weight: 500; }
+.t-product-caption     { font-size: 12px; line-height: 16px; font-weight: 400; }
+.t-product-stat        { font-size: 24px; line-height: 30px; font-weight: 500; }
+.t-product-stat-large  { font-size: 32px; line-height: 40px; font-weight: 500; letter-spacing: -0.03em; }
+.t-product-stat-small  { font-size: 20px; line-height: 28px; font-weight: 500; }
+.t-product-code        { font-family: var(--acasia-font-mono); font-size: 13px; line-height: 20px; font-weight: 400; }
+.t-product-code-digit  { font-family: var(--acasia-font-mono); font-size: 26px; line-height: 32px; font-weight: 500; }
+
+/* Website: acasia.com and the signed-out pages of cloud.acasia.com */
+.t-web-editorial  { font-size: 88px; line-height: 88px; font-weight: 500; letter-spacing: -0.035em; }
+.t-web-display    { font-size: 72px; line-height: 80px; font-weight: 500; letter-spacing: -0.0275em; }
+.t-web-56         { font-size: 56px; line-height: 64px; font-weight: 500; }
+.t-web-40         { font-size: 40px; line-height: 48px; font-weight: 500; letter-spacing: -0.05em; }
+.t-web-32         { font-size: 32px; line-height: 40px; font-weight: 500; }
+.t-web-28         { font-size: 28px; line-height: 36px; font-weight: 500; }
+.t-web-20         { font-size: 20px; line-height: 28px; font-weight: 500; }
+.t-web-18         { font-size: 18px; line-height: 28px; font-weight: 500; }
+.t-web-20-regular { font-size: 20px; line-height: 28px; font-weight: 400; }
+.t-web-12         { font-size: 12px; line-height: 20px; font-weight: 400; }
+
+/* The round green full stop that closes display headlines. Never on UI labels or the logo. */
+.t-stop { font-family: var(--acasia-font-stop); font-weight: 500; color: var(--acasia-color-signal-default); }
